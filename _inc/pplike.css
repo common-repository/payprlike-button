@@ -1,0 +1,174 @@
+.ui-widget-overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0, 0.7);
+  z-index: 9999;
+}
+.ui-dialog {
+  z-index: 99999;
+  padding: 0;
+  border-radius: 10px 10px 0 0;
+  background: #262626;
+  background: -moz-linear-gradient(top, #262626 0%, #2c2c2c 6%, #4d4d4d 27%, #525252 33%, #525252 39%, #474748 61%, #242528 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #262626), color-stop(6%, #2c2c2c), color-stop(27%, #4d4d4d), color-stop(33%, #525252), color-stop(39%, #525252), color-stop(61%, #474748), color-stop(100%, #242528));
+  background: -webkit-linear-gradient(top, #262626 0%, #2c2c2c 6%, #4d4d4d 27%, #525252 33%, #525252 39%, #474748 61%, #242528 100%);
+  background: -o-linear-gradient(top, #262626 0%, #2c2c2c 6%, #4d4d4d 27%, #525252 33%, #525252 39%, #474748 61%, #242528 100%);
+  background: -ms-linear-gradient(top, #262626 0%, #2c2c2c 6%, #4d4d4d 27%, #525252 33%, #525252 39%, #474748 61%, #242528 100%);
+  background: linear-gradient(to bottom, #262626 0%, #2c2c2c 6%, #4d4d4d 27%, #525252 33%, #525252 39%, #474748 61%, #242528 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#262626', endColorstr='#242528',GradientType=0 );
+  outline: none !important;
+  width: 404px !important;
+}
+/* line 1520, ../scss/custom.scss */
+.ui-dialog .ui-widget-header,
+.ui-dialog .ui-dialog-buttonpane {
+  border: none;
+}
+/* line 1524, ../scss/custom.scss */
+.ui-dialog .ui-dialog-titlebar {
+  background: transparent url("pplpopup.png") no-repeat center center !important;
+  height: 90px;
+}
+/* line 1527, ../scss/custom.scss */
+.ui-dialog .ui-dialog-content {
+  overflow: initial;
+}
+/* line 1530, ../scss/custom.scss */
+.ui-dialog .ui-dialog-buttonpane {
+  background: transparent;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/* line 1536, ../scss/custom.scss */
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  float: none;
+  width: 100%;
+}
+/* line 1539, ../scss/custom.scss */
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button {
+  border: none;
+  margin: 0;
+  height: 75px;
+  width: 202px;
+  font-size: 0;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.agree-button{
+  background: transparent url("agree.png") no-repeat center center !important;
+  cursor:pointer;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.cancel-button {
+  background: transparent url("cancel.png") no-repeat center center !important;
+  cursor:pointer;
+}
+.ui-dialog-titlebar-close {
+  box-shadow: none;
+  background: transparent url("close-mp.png") no-repeat center center !important;
+  border-width: 0;
+  font-size: 0;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  cursor: pointer;
+}
+#payprlike a {
+  background: transparent url("sm-ppl.png") no-repeat center center !important;
+  display: block;
+  font-size: 0;
+  height: 40px;
+  width: 125px;
+}
+
+html {
+  background: transparent !important;
+}
+
+ .panel-2col {
+  padding: 20px 0;
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;
+}
+
+.panel-col-first {
+  width: 90px;
+  margin-left: 35px;
+}
+ .panel-2col .panel-col-first .inside {
+  margin-bottom: 0;
+}
+/* line 1929, ../scss/custom.scss */
+ .panel-2col .panel-col-first img {
+  border: 2px solid #ffd200;
+  border-radius: 15px;
+}
+/* line 1934, ../scss/custom.scss */
+ .panel-2col .panel-col-last {
+  color: #fff;
+  padding-top: 20px;
+}
+/* line 1937, ../scss/custom.scss */
+ .panel-2col .panel-col-last .views-field-realname a {
+  color: #fff;
+  font-size: 1.3em;
+  padding-bottom: 5px;
+}
+
+.ui-dialog .ui-dialog-content {
+  height: 270px !important;
+}
+
+.payment-options {
+  margin-top: -60px;
+  text-align: center;
+}
+.payment-options .option-message {
+  color: #fff;
+  margin-top: -80px;
+  text-transform: capitalize;
+}
+.payment-options .option {
+	position: relative;
+  background: rgb(255, 210, 0);
+  display: inline-block;
+  border-radius: 10px;
+  height: 40px;
+  line-height: 40px;
+  width: 20%;
+  margin: 0 2%;
+  cursor: pointer;
+}
+.payment-options .option.option-active {
+		position: relative;
+  background: #fff;
+}
+.ui-dialog-buttonset .payment-buttons:first-child {
+  background: transparent url("popup-p.png") no-repeat center center !important;
+}
+.ui-dialog-buttonset .payment-buttons:nth-child(2) {
+  background: transparent url("popup-s.png") no-repeat center center !important;
+}
+.ui-dialog-buttonset .payment-buttons:nth-child(3) {
+  background: transparent url("popup-b.png") no-repeat center center !important;
+}
+.ui-dialog-buttonset .payment-buttons:last-child {
+  background: transparent url("popup-c.png") no-repeat center center !important;
+}
+.ui-dialog-buttonset .payment-buttons {
+  cursor: pointer;
+  width: 25% !important;
+  height: 115px !important;
+  outline: none !important;
+}
+.ui-dialog-buttonset .payment-buttons .ui-button-text {
+  color: #000;
+  font-size: 14px;
+  padding-top: 60px;
+  display: block;
+}
